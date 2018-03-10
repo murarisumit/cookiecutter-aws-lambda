@@ -1,0 +1,5 @@
+{
+    "lambda_fn_name": "CookieLambdaFunction",
+    "description": "My test lambda function",
+    "account_id": "123456789"
+}
