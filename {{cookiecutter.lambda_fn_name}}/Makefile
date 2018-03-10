@@ -17,3 +17,6 @@ update:
 
 clean:
 	rm -rf {{cookiecutter.lambda_fn_name}}.zip
+
+get-fn-arn:
+	aws lambda get-function --function-name function:{{cookiecutter.lambda_fn_name}} --query Configuration.FunctionArn --output text
