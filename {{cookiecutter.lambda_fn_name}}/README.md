@@ -75,6 +75,12 @@ make create
 make update
 ```
 
+#### Get lambda [arn](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html)
+```shell
+make get-fn-arn
+```
+
+
 ### Create version aliases for development, test, staging, production, etc
 
 ```shell
