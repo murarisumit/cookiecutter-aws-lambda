@@ -1,4 +1,6 @@
-# SNS-to-Slack AWS Lambda Function
+# {{cookiecutter.lambda_fn_name}} AWS Lambda Function
+
+** Reference to project structure is taken from `https://github.com/robbwagoner/aws-lambda-sns-to-slack`
 
 ### This project's configuration file
 `config.json`
@@ -102,3 +104,4 @@ aws lambda publish-version \
 * https://docs.aws.amazon.com/lambda/latest/dg/python-lambda.html
 * https://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html
 * https://docs.aws.amazon.com/lambda/latest/dg/versioning-aliases.html
+
