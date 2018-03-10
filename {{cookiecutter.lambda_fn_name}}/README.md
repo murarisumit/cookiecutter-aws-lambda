@@ -1,6 +1,6 @@
 # {{cookiecutter.lambda_fn_name}} AWS Lambda Function
 
-** Reference to project structure is taken from `https://github.com/robbwagoner/aws-lambda-sns-to-slack`
+** Reference to project structure is taken from `https://github.com/robbwagoner/aws-lambda-sns-to-slack` **
 
 ### This project's configuration file
 `config.json`
