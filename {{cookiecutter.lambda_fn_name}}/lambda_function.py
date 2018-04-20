@@ -25,8 +25,7 @@ def lambda_handler(event, context):
     # Get normal key
     value = config['key']
 
-    payload = { 'text': message }
+    payload = {'text': value}
     print('DEBUG:', payload)
     r = requests.post(WEBHOOK_URL, json=payload)
     return r.status_code
-
